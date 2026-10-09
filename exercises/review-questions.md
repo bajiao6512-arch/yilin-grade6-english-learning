@@ -1,32 +1,39 @@
 # 练习题
 
-## 选择题
+## 一、选择题
 
-1. I ______ to school by bike every day.  
-   A. go  B. goes  C. going
+1. I ___ my teacher is very kind.  
+   A. am  B. is  C. are
 
-2. There ______ a cat under the table.  
+2. There ___ a cat under the table.  
    A. is  B. are  C. am
 
-3. She ______ English very well.  
-   A. speak  B. speaks  C. speaking
+3. I like ___ books after school.  
+   A. read  B. reading  C. reads
 
-## 填空题
+4. We have lunch ___ school.  
+   A. on  B. at  C. by
 
-1. My mother ______ (cook) dinner every evening.
-2. There ______ (be) many books on the shelf.
-3. They ______ (play) basketball now.
+## 二、填空题
 
-## 句型转换
+1. My father is a ________.
+2. I do my ________ after school.
+3. We learn English every ________.
+4. My hobby is ________ books.
 
-1. I like apples.  
-   -> She ______ apples.
+## 三、翻译题
 
-2. There is a classroom.  
-   -> There are ______ classrooms.
+1. 我叫王明。  
+2. 我喜欢踢足球。  
+3. 这是我的家。  
+4. 我每天早上六点起床。
 
-## 口语练习
+## 四、口语练习
 
-- How do you go to school?
+- Tell me about your family.
 - What do you like to do after school?
-- Can you describe your family?
+- How do you go to school?
+
+## 五、作文题
+
+请写一篇 5–8 句的英语小作文，介绍你的学校、家庭或日常生活。

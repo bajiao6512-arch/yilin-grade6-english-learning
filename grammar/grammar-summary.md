@@ -1,34 +1,55 @@
 # 语法总结
 
-## 基础语法要点
+## 1. be 动词
 
-### 1. 一般现在时
+- I am
+- You are
+- He/She/It is
+- We are
+- They are
 
-- 表示经常发生的动作
-- 常用结构：主语 + 动词原形 / 动词第三人称单数
+示例：
+- I am in Class 6.
+- She is my sister.
 
-例：
-- I go to school at 7:30.
+## 2. There be 句型
+
+- There is a book.
+- There are two books.
+
+示例：
+- There is a big classroom.
+- There are four people in my family.
+
+## 3. 一般现在时
+
+- I go to school by bus.
 - She likes English.
+- We have lunch at school.
 
-### 2. There be 句型
+## 4. like + 动词-ing
 
-- 表示“有”
-- 结构：There is / There are + 名词
+- I like reading books.
+- He likes playing football.
+- She likes drawing pictures.
 
-例：
-- There is a book on the desk.
-- There are two pens in the bag.
+## 5. 时间表达
 
-### 3. 人称代词
+- at seven o'clock
+- in the morning
+- after school
+- before dinner
 
-- I, you, he, she, it, we, they
+## 6. 常见句型
 
-### 4. 现在进行时
+- What is your name?
+- How old are you?
+- How do you go to school?
+- What is your hobby?
+- What do you have for breakfast?
 
-- 表示正在进行的动作
-- 结构：主语 + be 动词 + 动词ing
+## 复习重点
 
-例：
-- I am reading a book.
-- They are playing football.
+- 语法要在句子里使用
+- 多做练习，形成语言意识
+- 牢记常见句型
