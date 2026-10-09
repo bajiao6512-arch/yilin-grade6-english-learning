@@ -1,35 +1,43 @@
 # Unit 1：Welcome to Our School
 
-## 1. 课文主题
+## 一、单元目标
 
-本单元主要学习学校生活、班级介绍和基础问候句型。
+本单元的主要内容是学校生活和自我介绍，帮助学生掌握以下知识：
 
-### 课文示例
+- 自我介绍：姓名、年龄、学校、班级
+- 学校场所：classroom, school, library, playground
+- 常用问句：What is your name? How old are you?
+- 基本句型：I am ... / This is my ...
 
-Hello, everyone! My name is Tom. I am eleven years old. I come to school by bus. This is my classroom. It is big and clean. My teacher is kind and friendly. I like English very much.
+## 二、核心课文
 
-### 重点句型
+Hello, everyone! My name is Tom. I am eleven years old. I go to school by bus. This is my classroom. It is big and clean. My teacher is kind and friendly. I like English very much.
 
-- My name is ...
-- I am ... years old.
-- I go to school by ...
-- This is my ...
-- My teacher is ...
+### 课文重点句型
 
-## 2. 重点词汇
+- My name is Tom.
+- I am eleven years old.
+- I go to school by bus.
+- This is my classroom.
+- My teacher is kind.
+- I like English very much.
 
-- school 学校
-- classroom 教室
-- teacher 老师
-- friend 朋友
-- bus 公交车
-- clean 干净的
-- kind 和蔼的
-- friendly 友好的
+## 三、重点词汇
 
-## 3. 语法点
+| 单词 | 中文 | 例句 |
+|------|------|------|
+| school | 学校 | I go to school by bus. |
+| classroom | 教室 | This is my classroom. |
+| teacher | 老师 | My teacher is kind. |
+| friend | 朋友 | He is my good friend. |
+| bus | 公交车 | I go to school by bus. |
+| clean | 干净的 | The classroom is clean. |
+| kind | 和蔼的 | My teacher is kind. |
+| friendly | 友好的 | My classmates are friendly. |
 
-### be 动词
+## 四、语法重点
+
+### 1. be 动词
 
 - I am
 - You are
@@ -38,10 +46,26 @@ Hello, everyone! My name is Tom. I am eleven years old. I come to school by bus.
 - They are
 
 例句：
-- I am in Grade Six.
+- I am in Class 6.
 - She is my friend.
+- We are happy at school.
 
-## 4. 练习
+### 2. 问候和介绍句型
+
+- What is your name?
+- My name is ...
+- How old are you?
+- I am ... years old.
+
+## 五、口语训练
+
+- What is your name?
+- How old are you?
+- How do you go to school?
+- What class are you in?
+- Who is your teacher?
+
+## 六、练习题
 
 ### 选择题
 
@@ -51,19 +75,22 @@ Hello, everyone! My name is Tom. I am eleven years old. I come to school by bus.
 2. I go to school ___ bus.  
    A. by  B. on  C. in
 
+3. This is my ______.  
+   A. teacher  B. classroom  C. friend
+
 ### 填空题
 
-1. This is my ________.
-2. My teacher is very ________.
+1. I am in Class ______.
+2. My teacher is very ______.
+3. The classroom is very ______.
 
-### 口语练习
+### 口语作文
 
-- What is your name?
-- How old are you?
-- How do you go to school?
+Write 4–5 sentences about your school and your teacher.
 
-## 5. 复习重点
+## 七、单元复习
 
-- 会说自己的姓名和年龄
-- 会描述学校和老师
-- 会使用基本的 be 动词
+- 认识学校生活常用词
+- 能介绍自己和老师
+- 能描述学校与教室
+- 能用基本句型问候和自我介绍

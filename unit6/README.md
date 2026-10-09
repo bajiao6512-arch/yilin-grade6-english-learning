@@ -1,51 +1,82 @@
 # Unit 6：Review and Culture
 
-## 1. 课文主题
+## 一、单元目标
 
-本单元综合复习之前的知识，并加入文化交流与表达内容。
+本单元主要是综合复习，并帮助学生了解文化与语言交流的意义。重点包括：
 
-### 课文示例
+- 综合复习 be 动词、There be、一般现在时
+- 学习常用文化交流表达：language, culture, country
+- 训练英文表达能力与思维拓展
+- 提升综合写作与口语表达
+
+## 二、核心课文
 
 We learn English every day. English is very useful. We can read, write and speak in English. We also learn about different cultures and countries. It is fun to share ideas with others.
 
-## 2. 重点词汇
+### 重点句型
 
-- useful 有用的
-- culture 文化
-- country 国家
-- share 分享
-- idea 想法
-- school life 学校生活
-- language 语言
-- different 不同的
+- We learn English every day.
+- English is useful.
+- We can read and write in English.
+- We learn about different cultures.
 
-## 3. 语法点
+## 三、重点词汇
 
-### 综合复习
+| 单词 | 中文 | 例句 |
+|------|------|------|
+| useful | 有用的 | English is useful. |
+| culture | 文化 | We learn about culture. |
+| country | 国家 | China is my country. |
+| share | 分享 | We share ideas with others. |
+| idea | 想法 | I have a good idea. |
+| language | 语言 | English is a language. |
+| different | 不同的 | We are different. |
+| learn | 学习 | We learn English every day. |
 
-- be 动词
-- There be 句型
-- 一般现在时
-- like + 动词-ing
-- 时间表达
+## 四、语法重点
 
-## 4. 练习
+### 1. 综合复习
 
-### 综合题
+- be 动词：I am / She is
+- There be：There are two books.
+- 一般现在时：I go to school every day.
+- like + 动词-ing：I like reading books.
 
-1. My father is a ______.
-2. There are three ______ in my family.
-3. I like ______ books.
-4. I go to school at ______.
+### 2. 语言交流表达
 
-### 口语话题
+- We can read and write in English.
+- We can share ideas with others.
+
+## 五、口语训练
 
 - Tell me about your school.
-- Tell me about your family.
-- What do you like doing after school?
+- What is your hobby?
+- Who is in your family?
+- Why do you like English?
 
-## 5. 复习重点
+## 六、练习题
 
-- 复习关键语法与句型
-- 能用英语介绍自己、家庭和学校
-- 能把所学知识用于简单表达
+### 选择题
+
+1. English is very ______.  
+   A. useless  B. useful  C. late
+
+2. We can ______ ideas with others.  
+   A. share  B. show  C. write
+
+### 填空题
+
+1. We learn about different ______.
+2. My favourite ______ is English.
+3. There are three people in my ______.
+
+### 写作题
+
+Write a short passage about your school life and your hobby.
+
+## 七、单元复习
+
+- 能详细介绍自己和学校
+- 能谈论家庭和爱好
+- 能使用英语表达简单观点
+- 能写作和口语交流的基础练习

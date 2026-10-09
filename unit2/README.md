@@ -1,51 +1,83 @@
 # Unit 2：My Family
 
-## 1. 课文主题
+## 一、单元目标
 
-本单元学习家庭成员名称及简单的家庭介绍。
+这个单元主要学习家庭成员及家庭结构，帮助学生掌握：
 
-### 课文示例
+- 家庭成员名称：father, mother, brother, sister
+- 基本家庭介绍：This is my family.
+- There be 句型：There are ... / There is ...
+- 家庭问题：How many people are there in your family?
+
+## 二、核心课文
 
 This is my family. There are four people in my family. My father is a teacher. My mother is a doctor. I have one brother and one sister. We are a happy family.
 
-## 2. 重点词汇
+### 重点句型
 
-- father 父亲
-- mother 母亲
-- brother 兄弟
-- sister 姐妹
-- family 家庭
-- doctor 医生
-- teacher 老师
-- happy 快乐的
+- This is my family.
+- There are four people in my family.
+- My father is a teacher.
+- My mother is a doctor.
+- We are a happy family.
 
-## 3. 语法点
+## 三、重点词汇
 
-### There be 句型
+| 单词 | 中文 | 例句 |
+|------|------|------|
+| father | 父亲 | My father is a teacher. |
+| mother | 母亲 | My mother is kind. |
+| brother | 兄弟 | I have a brother. |
+| sister | 姐妹 | She is my sister. |
+| family | 家庭 | This is my family. |
+| doctor | 医生 | My mother is a doctor. |
+| teacher | 老师 | My father is a teacher. |
+| happy | 快乐的 | We are a happy family. |
 
-- There is a ...
-- There are ...
+## 四、语法重点
 
-例句：
+### 1. There be 句型
+
 - There is a book on the desk.
 - There are four people in my family.
 
-## 4. 练习
+### 2. 数词与数量表达
+
+- one, two, three, four
+- There is one brother.
+- There are two sisters.
+
+## 五、口语训练
+
+- How many people are there in your family?
+- Who is your father?
+- What does your mother do?
+- Do you have a brother or a sister?
+
+## 六、练习题
+
+### 选择题
+
+1. There ___ a dog in my home.  
+   A. is  B. are  C. am
+
+2. I have one ______.  
+   A. mother  B. mothers  C. family
+
+### 填空题
+
+1. This is my ______.
+2. There are ______ people in my family.
+3. My father is a ______.
 
 ### 句型转换
 
-1. There is one girl in my family.  
-   → There are ______ girls in my family.
+- There is one brother in my family.  
+  → There are ______ brothers in my family.
 
-2. My father is a teacher.  
-   → My father and mother are ______.
+## 七、单元复习
 
-### 写作练习
-
-写一段关于你的家庭的英文短文，至少 4 句。
-
-## 5. 复习重点
-
-- 会说家庭成员名称
-- 会使用 There be 句型
+- 能说出家庭成员名称
 - 能介绍自己的家庭
+- 能用 There be 句型表达数量
+- 能写简单的家庭介绍短文
