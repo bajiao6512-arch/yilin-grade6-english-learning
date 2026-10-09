@@ -1,350 +1,424 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="译林版六年级英语学习平台，包含单元学习、阅读练习和互动问答。" />
+    <title>译林版六年级英语学习平台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">译林版六年级英语</div>
+        <nav>
+          <a href="#overview">简介</a>
+          <a href="#units">单元</a>
+          <a href="#reading">阅读练习</a>
+          <a href="#vocab">词汇</a>
+          <a href="#grammar">语法</a>
+          <a href="#plan">计划</a>
+        </nav>
+      </div>
+    </header>
 
-:root {
-  --primary: #1f6feb;
-  --primary-dark: #174ea6;
-  --accent: #f4b942;
-  --bg: #f6f9ff;
-  --card: #ffffff;
-  --text: #1d2a36;
-  --muted: #5d6a78;
-  --line: #dfeaf7;
-  --success: #2c9a6c;
-}
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="tag">互动学习平台</span>
+            <h1>译林版六年级英语学习平台</h1>
+            <p>
+              以单元学习 + 互动练习 + 阅读训练为核心，帮助学生提高英语阅读、表达和语法能力。
+            </p>
+            <div class="cta-group">
+              <a class="primary" href="#reading">开始阅读训练</a>
+              <a class="secondary" href="https://github.com/bajiao6512-arch/yilin-grade6-english-learning" target="_blank" rel="noreferrer">GitHub 仓库</a>
+            </div>
+          </div>
 
-html {
-  scroll-behavior: smooth;
-}
+          <div class="hero-card">
+            <h3>今日学习任务</h3>
+            <ul>
+              <li>1. 完成一篇阅读理解</li>
+              <li>2. 复习重点单词</li>
+              <li>3. 学习语法要点</li>
+              <li>4. 做一组口语练习</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-body {
-  margin: 0;
-  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.6;
-}
+      <section id="overview" class="section">
+        <div class="container">
+          <h2>平台简介</h2>
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="icon">📘</div>
+              <h3>单元学习</h3>
+              <p>系统规划每个单元内容，包括课文、语法和练习。</p>
+            </article>
+            <article class="feature">
+              <div class="icon">📖</div>
+              <h3>阅读训练</h3>
+              <p>配套阅读材料和选择题，提升理解与推断能力。</p>
+            </article>
+            <article class="feature">
+              <div class="icon">🧠</div>
+              <h3>互动答题</h3>
+              <p>即时判断答案，帮助学生快速纠正错误和巩固知识。</p>
+            </article>
+            <article class="feature">
+              <div class="icon">✅</div>
+              <h3>学习复盘</h3>
+              <p>给予反馈与总结，支持课后复习和巩固提高。</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-a {
-  text-decoration: none;
-}
+      <section id="units" class="section alt">
+        <div class="container">
+          <h2>学习单元</h2>
+          <div class="unit-grid">
+            <article class="unit-card">
+              <span class="unit-number">Unit 1</span>
+              <h3>Welcome to Our School</h3>
+              <p>学校生活、问候和基础自我介绍。</p>
+            </article>
+            <article class="unit-card">
+              <span class="unit-number">Unit 2</span>
+              <h3>My Family</h3>
+              <p>家庭成员介绍与 There be 句型。</p>
+            </article>
+            <article class="unit-card">
+              <span class="unit-number">Unit 3</span>
+              <h3>My Hobbies</h3>
+              <p>表达喜好与日常兴趣爱好。</p>
+            </article>
+            <article class="unit-card">
+              <span class="unit-number">Unit 4</span>
+              <h3>Food and Meals</h3>
+              <p>学习食物词汇与饮食表达。</p>
+            </article>
+            <article class="unit-card">
+              <span class="unit-number">Unit 5</span>
+              <h3>Daily Life</h3>
+              <p>介绍作息安排与时间表达。</p>
+            </article>
+            <article class="unit-card">
+              <span class="unit-number">Unit 6</span>
+              <h3>Review and Culture</h3>
+              <p>综合复习和文化交流表达。</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-.container {
-  width: min(1120px, calc(100% - 2rem));
-  margin: 0 auto;
-}
+      <section id="reading" class="section">
+        <div class="container reading-wrap">
+          <div class="reading-header">
+            <h2>阅读练习</h2>
+            <button id="nextExerciseBtn" class="mini-btn">下一篇</button>
+          </div>
 
-.topbar {
-  position: sticky;
-  top: 0;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
-  z-index: 10;
-}
+          <div id="exerciseCard" class="exercise-panel">
+            <div class="exercise-meta">
+              <span id="exerciseTag" class="exercise-tag">Unit 1</span>
+              <span id="exerciseProgress" class="progress-text">第 1 / 3 篇</span>
+            </div>
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 72px;
-  gap: 1rem;
-}
+            <h3 id="exerciseTitle" class="exercise-title">阅读标题</h3>
 
-.brand {
-  font-weight: 700;
-  color: var(--primary-dark);
-  letter-spacing: 0.04em;
-}
+            <div class="passage-box">
+              <p id="exercisePassage"></p>
+            </div>
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+            <div id="questionList" class="question-list"></div>
 
-nav a {
-  color: var(--text);
-  font-size: 0.96rem;
-}
+            <div class="answer-actions">
+              <button id="submitBtn" class="primary-btn">提交答案</button>
+              <button id="resetBtn" class="ghost-btn">重置</button>
+            </div>
 
-nav a:hover {
-  color: var(--primary);
-}
+            <div id="resultBox" class="result-box hidden"></div>
+          </div>
+        </div>
+      </section>
 
-.hero {
-  padding: 5rem 0 4rem;
-  background: linear-gradient(135deg, #eef6ff, #f9fbff);
-}
+      <section id="vocab" class="section alt">
+        <div class="container two-column">
+          <div>
+            <h2>词汇积累</h2>
+            <p>
+              通过例句和分类记忆，可以更容易掌握常用词汇，强化阅读和口语表达能力。
+            </p>
+          </div>
+          <div class="list-box">
+            <ul>
+              <li>school</li>
+              <li>teacher</li>
+              <li>family</li>
+              <li>hobby</li>
+              <li>breakfast</li>
+              <li>homework</li>
+              <li>country</li>
+              <li>culture</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-.hero-inner {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 2rem;
-  align-items: center;
-}
+      <section id="grammar" class="section">
+        <div class="container">
+          <h2>语法重点</h2>
+          <div class="grammar-grid">
+            <div class="grammar-card">
+              <h3>be 动词</h3>
+              <p>I am / You are / He is</p>
+            </div>
+            <div class="grammar-card">
+              <h3>There be</h3>
+              <p>There is / There are</p>
+            </div>
+            <div class="grammar-card">
+              <h3>一般现在时</h3>
+              <p>I go to school every day.</p>
+            </div>
+            <div class="grammar-card">
+              <h3>like + 动词 ing</h3>
+              <p>I like reading books.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-.tag {
-  display: inline-block;
-  background: #e7f0ff;
-  color: var(--primary-dark);
-  padding: 0.35rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
+      <section id="plan" class="section alt">
+        <div class="container">
+          <h2>学习计划</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>周一</span>
+              <p>复习词汇并阅读一篇短文。</p>
+            </div>
+            <div class="timeline-item">
+              <span>周二</span>
+              <p>学习一节新语法内容。</p>
+            </div>
+            <div class="timeline-item">
+              <span>周三</span>
+              <p>完成基础练习与口语表达。</p>
+            </div>
+            <div class="timeline-item">
+              <span>周四</span>
+              <p>阅读理解训练和复盘。</p>
+            </div>
+            <div class="timeline-item">
+              <span>周五</span>
+              <p>综合练习与小测验。</p>
+            </div>
+            <div class="timeline-item">
+              <span>周末</span>
+              <p>整理错题并总结学习收获。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-.hero-copy h1 {
-  font-size: clamp(2.2rem, 4vw, 4rem);
-  margin: 1rem 0 0.8rem;
-  line-height: 1.1;
-}
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> 译林版六年级英语学习平台</p>
+        <a href="https://github.com/bajiao6512-arch/yilin-grade6-english-learning" target="_blank" rel="noreferrer">查看仓库</a>
+      </div>
+    </footer>
 
-.hero-copy p {
-  font-size: 1.08rem;
-  color: var(--muted);
-  max-width: 680px;
-}
+    <script src="script.js"></script>
+  </body>
+</html>
 
-.cta-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 2rem;
-}
 
-.primary,
-.secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0 1.2rem;
-  border-radius: 12px;
-  font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
 
-.primary {
-  background: var(--primary);
-  color: #fff;
-  box-shadow: 0 10px 25px rgba(31, 111, 235, 0.2);
-}
 
-.secondary {
-  background: #fff;
-  color: var(--text);
-  border: 1px solid var(--line);
-}
 
-.primary:hover,
-.secondary:hover {
-  transform: translateY(-1px);
-}
 
-.hero-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  padding: 1.7rem;
-  box-shadow: 0 20px 40px rgba(30, 41, 59, 0.06);
-}
 
-.hero-card h3 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.35rem;
-}
 
-.hero-card ul {
-  margin: 0;
-  padding-left: 1.2rem;
-  color: var(--muted);
-}
 
-.hero-card li + li {
-  margin-top: 0.55rem;
-}
 
-.section {
-  padding: 4.5rem 0;
-}
 
-.alt {
-  background: #edf5ff;
-}
 
-.section h2 {
-  margin: 0 0 2rem;
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
-}
 
-.feature-grid,
-.unit-grid,
-.grammar-grid,
-.exercise-layout {
-  display: grid;
-  gap: 1.4rem;
-}
 
-.feature-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 
-.feature,
-.unit-card,
-.grammar-card,
-.exercise-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 1.4rem;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
-}
 
-.feature .icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  background: #eef5ff;
-  font-size: 1.5rem;
-  margin-bottom: 0.9rem;
-}
 
-.feature h3,
-.unit-card h3,
-.grammar-card h3,
-.exercise-card h3 {
-  margin: 0 0 0.6rem;
-  font-size: 1.15rem;
-}
 
-.feature p,
-.unit-card p,
-.grammar-card p,
-.exercise-card p,
-.list-box li,
-.timeline-item p {
-  color: var(--muted);
-}
 
-.unit-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 
-.unit-number {
-  display: inline-block;
-  background: #edf3ff;
-  color: var(--primary-dark);
-  padding: 0.3rem 0.7rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin-bottom: 0.8rem;
-}
 
-.two-column {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 1.6rem;
-  align-items: center;
-}
 
-.list-box {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 1.3rem 1.5rem;
-}
 
-.list-box ul {
-  margin: 0;
-  padding-left: 1.2rem;
-  columns: 2;
-  column-gap: 2rem;
-}
 
-.grammar-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 
-.exercise-layout {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 
-.timeline {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
 
-.timeline-item {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 1.2rem 1rem;
-}
 
-.timeline-item span {
-  display: inline-block;
-  background: #ecf8f0;
-  color: var(--success);
-  font-weight: 700;
-  border-radius: 999px;
-  padding: 0.3rem 0.7rem;
-  margin-bottom: 0.7rem;
-}
 
-.footer {
-  background: #0e1d35;
-  color: #e9f0ff;
-  padding: 1.3rem 0;
-}
 
-.footer-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
 
-.footer a {
-  color: #dfeefd;
-}
 
-@media (max-width: 900px) {
-  .feature-grid,
-  .unit-grid,
-  .grammar-grid,
-  .exercise-layout,
-  .timeline,
-  .two-column,
-  .hero-inner {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media (max-width: 640px) {
-  .nav,
-  .footer-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .feature-grid,
-  .unit-grid,
-  .grammar-grid,
-  .exercise-layout,
-  .timeline,
-  .two-column,
-  .hero-inner {
-    grid-template-columns: 1fr;
-  }
 
-  .list-box ul {
-    columns: 1;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
